@@ -11,7 +11,7 @@ foreach ($row as $key => $entry) {
 
 $sprint_days=10;       //we can sprint days
 $count_day[1]=0;
-$devloper_array=array(1=>'devloper 1',2=>'devloper 2'); //dynamic we can add more 
+$devloper_array=array(1=>'devloper 1',2=>'devloper 2','devloper 3'); //dynamic we can add more 
 for($k=1;$k<=count($devloper_array);$k++){
     $sprint_no[$k]=1;
 }
